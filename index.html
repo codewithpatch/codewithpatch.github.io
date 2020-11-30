@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link href="https://css.gg/play-button-o.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>It's white turn.</h1>
+    <div class="container">
+      <div id="chess-top" class="chess-side">
+        <!-- <div></div> -->
+        <div class="top-mid">
+          <div class="black-timer">TIMER</div>
+          <button class="reset" onclick="board.resetBoard()">R</button>
+          <button class="play" onclick="board.startGame()">P</i></button>
+        </div>
+      </div>
+      <div id="chess-left" class="chess-side">
+        <div class="num-notation">8</div>
+        <div class="num-notation">7</div>
+        <div class="num-notation">6</div>
+        <div class="num-notation">5</div>
+        <div class="num-notation">4</div>
+        <div class="num-notation">3</div>
+        <div class="num-notation">2</div>
+        <div class="num-notation">1</div>
+      </div>
+      <div id="chess-right" class="chess-side"></div>
+      <div id="chess-bottom" class="chess-side">
+        <div class="empty1"></div>
+        <div class="mid-notation">
+          <div class="white-timer">TIMER</div>
+          <div class="char-notation">A</div>
+          <div class="char-notation">B</div>
+          <div class="char-notation">C</div>
+          <div class="char-notation">D</div>
+          <div class="char-notation">E</div>
+          <div class="char-notation">F</div>
+          <div class="char-notation">G</div>
+          <div class="char-notation">H</div>
+        </div>
+        <div class="empty2"></div>
+      </div>
+      <div class="chess-board"></div>
+    </div>
+
+    <script>
+      var exports = {};
+    </script>
+    <script src="./js/chess.js"></script>
+  </body>
+</html>

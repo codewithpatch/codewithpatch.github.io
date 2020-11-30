@@ -1,0 +1,4 @@
+.DS_Store
+chess-js.code-workspace
+package-lock*
+webpack*
